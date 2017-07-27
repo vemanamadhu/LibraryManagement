@@ -20,6 +20,8 @@ public class Books {
 	public void setRack_no(String rack_no) {
 		this.rack_no = rack_no;
 	}
+	
+	
 	public String getTitle() {
 		return title;
 	}
