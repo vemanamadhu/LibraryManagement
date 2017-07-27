@@ -5,6 +5,14 @@ public class Issue_student {
 	private String return_date;
 	private int book_id;
 	private String student_id;
+	private int reissue;
+	
+	public int getReissue() {
+		return reissue;
+	}
+	public void setReissue(int reissue) {
+		this.reissue = reissue;
+	}
 	public String getIssue_date() {
 		return issue_date;
 	}
@@ -32,8 +40,9 @@ public class Issue_student {
 	@Override
 	public String toString() {
 		return "Issue_student [issue_date=" + issue_date + ", return_date=" + return_date + ", book_id=" + book_id
-				+ ", student_id=" + student_id + "]";
+				+ ", student_id=" + student_id + ", reissue=" + reissue + "]";
 	}
+	
 	
 	
 
