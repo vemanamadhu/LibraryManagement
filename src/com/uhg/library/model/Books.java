@@ -8,6 +8,14 @@ public class Books {
 	private String publisher;
 	private int edition;
 	private String status;
+	private int count;
+	
+	public int getCount() {
+		return count;
+	}
+	public void setCount(int count) {
+		this.count = count;
+	}
 	public int getBook_id() {
 		return book_id;
 	}
@@ -20,7 +28,6 @@ public class Books {
 	public void setRack_no(String rack_no) {
 		this.rack_no = rack_no;
 	}
-	
 	
 	public String getTitle() {
 		return title;
@@ -55,8 +62,9 @@ public class Books {
 	@Override
 	public String toString() {
 		return "Books [book_id=" + book_id + ", rack_no=" + rack_no + ", title=" + title + ", author=" + author
-				+ ", publisher=" + publisher + ", edition=" + edition + ", status=" + status + "]";
+				+ ", publisher=" + publisher + ", edition=" + edition + ", status=" + status + ", count=" + count + "]";
 	}
+	
 	
 	
 
