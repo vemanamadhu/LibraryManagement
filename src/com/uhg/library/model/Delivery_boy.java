@@ -1,15 +1,23 @@
 package com.uhg.library.model;
 
 public class Delivery_boy {
-	private int delivery_id;
+	private int deliver_id;
+	private String password;
 	private String first_name;
 	private String last_name;
-	private long mob_no;
-	public int getDelivery_id() {
-		return delivery_id;
+	private long mobile_no;
+	
+	public int getDeliver_id() {
+		return deliver_id;
 	}
-	public void setDelivery_id(int delivery_id) {
-		this.delivery_id = delivery_id;
+	public void setDeliver_id(int deliver_id) {
+		this.deliver_id = deliver_id;
+	}
+	public String getPassword() {
+		return password;
+	}
+	public void setPassword(String password) {
+		this.password = password;
 	}
 	public String getFirst_name() {
 		return first_name;
@@ -23,17 +31,17 @@ public class Delivery_boy {
 	public void setLast_name(String last_name) {
 		this.last_name = last_name;
 	}
-	public long getMob_no() {
-		return mob_no;
+	public long getMobile_no() {
+		return mobile_no;
 	}
-	public void setMob_no(long mob_no) {
-		this.mob_no = mob_no;
+	public void setMobile_no(long mobile_no) {
+		this.mobile_no = mobile_no;
 	}
 	@Override
 	public String toString() {
-		return "Delivery_boy [delivery_id=" + delivery_id + ", first_name=" + first_name + ", last_name=" + last_name
-				+ ", mob_no=" + mob_no + "]";
+		return "Delivery_boy [delivery_id=" + deliver_id + ", first_name=" + first_name + ", last_name=" + last_name
+				+ ", mobile_no=" + mobile_no + "]";
 	}
 	
-	
 }
+	

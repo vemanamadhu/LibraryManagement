@@ -7,6 +7,8 @@ public class Student {
 	private String last_name;
 	private String address;
 	private long mobile_no;
+	private String gender;
+	
 	public String getStudent_id() {
 		return student_id;
 	}
@@ -43,11 +45,20 @@ public class Student {
 	public void setMobile_no(long mobile_no) {
 		this.mobile_no = mobile_no;
 	}
+	public String getGender() {
+		return gender;
+	}
+	public void setGender(String gender) {
+		this.gender = gender;
+	}
 	@Override
 	public String toString() {
 		return "Student [student_id=" + student_id + ", password=" + password + ", first_name=" + first_name
-				+ ", last_name=" + last_name + ", address=" + address + ", mobile_no=" + mobile_no + "]";
+				+ ", last_name=" + last_name + ", address=" + address + ", mobile_no=" + mobile_no + ", gender="
+				+ gender + "]";
 	}
+	
+	
 	
 	
 	

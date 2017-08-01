@@ -8,7 +8,7 @@ public interface StudentDAO {
 	public void addStudent (Student student);
 	public void deleteStudent (String student_id );
 	public void updateStudent (Student student);
-	public List<Student> getAllStudents();
-	public List<Student> getStudent(String student_id);
-	public List<Student> getStudent(String first_name, String last_name);
+	public List<Student> getAllStudents(String first_name, String last_name);
+	public Student getStudent(String student_id);
+        public boolean validation(String username, String password);
 }

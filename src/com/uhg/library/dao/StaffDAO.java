@@ -9,6 +9,7 @@ public interface StaffDAO {
 	public void deleteStaff (String staff_id );
 	public void updateStaff (Staff staff);
 	public List<Staff> getAllStaff();
-	public List<Staff> getStaff(String staff_id);
+	public Staff getStaff(String staff_id);
 	public List<Staff> getStaff(String first_name, String last_name);
+        public boolean validation(String username, String password);
 }
